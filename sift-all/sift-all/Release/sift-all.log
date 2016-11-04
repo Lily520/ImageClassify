@@ -1,0 +1,8 @@
+﻿  sift-all.cpp
+sift-all.cpp(28): warning C4101: “len”: 未引用的局部变量
+  正在生成代码
+  0 of 254 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    28 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  sift-all.vcxproj -> C:\Users\Administrator\Desktop\sift-all\Release\sift-all.exe
