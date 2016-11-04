@@ -1,0 +1,6 @@
+﻿  color-sift-all.cpp
+color-sift-all.cpp(79): warning C4101: “len”: 未引用的局部变量
+  正在生成代码
+  All 271 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  color-sift-all.vcxproj -> C:\Users\Administrator\Desktop\color-sift-all\x64\Release\color-sift-all.exe
