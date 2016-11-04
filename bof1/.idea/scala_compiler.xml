@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <parameters>
+      <parameter value="D:\jdk1.7.0_01" />
+    </parameters>
+    <plugins>
+      <plugin path="D:/jdk1.7.0_01/lib/tools.jar" />
+    </plugins>
+  </component>
+</project>

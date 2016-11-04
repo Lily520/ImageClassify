@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="bof9">
+    <output-path>$PROJECT_DIR$/out/artifacts/bof9</output-path>
+    <root id="archive" name="bof9.jar">
+      <element id="module-output" name="bof" />
+    </root>
+  </artifact>
+</component>
