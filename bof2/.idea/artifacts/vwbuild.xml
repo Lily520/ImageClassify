@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="vwbuild">
+    <output-path>$PROJECT_DIR$/out/artifacts/vwbuild</output-path>
+    <root id="archive" name="vwbuild.jar">
+      <element id="module-output" name="vwbuild" />
+    </root>
+  </artifact>
+</component>
