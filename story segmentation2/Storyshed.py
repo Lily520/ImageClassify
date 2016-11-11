@@ -1,4 +1,4 @@
-from contextBasedDifference import cnA,cnx
+#find the story segmentation
 
 def find_nearest_peak(key,list_p):
 	for i in range(len(list_p)):
