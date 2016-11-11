@@ -1,3 +1,5 @@
+from contextBasedDifference import cnA,cnx
+
 def find_nearest_peak(key,list_p):
 	for i in range(len(list_p)):
 		if list_p[i] < key and list_p[i+1] > key:
@@ -5,6 +7,7 @@ def find_nearest_peak(key,list_p):
 
 #B is the set of scene boundaries
 #D is is the corresponding context-based difference values
+
 
 def Storyshed(B,D):
 	#find the boundaries in the valley set Y and the peak set P
@@ -37,10 +40,13 @@ def Storyshed(B,D):
 	#test
 	print(SB)
 
-b = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
-d = [2,3,1,5,10,8,3.5,12,4]
+if __name__ == '__main__':
+	b = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
+ 	d = [2,3,1,5,10,8,3.5,12,4]
+	Storyshed(b,d)
 
-Storyshed(b,d)
+
+
 
 
 
