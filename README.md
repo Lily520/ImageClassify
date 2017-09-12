@@ -25,7 +25,12 @@
     
 ## 3.实验结果
 <p align=center><img src="https://github.com/Lily520/ImageClassify/raw/master/img/img1.png" width="80%" height="80%" alt = "图1" align=center/></p>
+实验结果表明：用SIFT特征训练分类器所花的时间远远大于颜色直方图特征。
 <p align=center><img src="https://github.com/Lily520/ImageClassify/raw/master/img/img2.png" width="80%" height="80%" alt = "图2" align=center/></p>
+实验结果表明：用SIFT特征对图片分类的准确率较颜色直方图高。
 <p align=center><img src="https://github.com/Lily520/ImageClassify/raw/master/img/img3.png" width="80%" height="80%" alt = "图3" align=center/></p>
+实验结果表明：基于BoF的多分类算法的准确率整体上随着视觉词典的大小的变化先增加后减小，即当视觉词典较小时准确率随着视觉词汇的增加而增加，当视觉词典较大时准确率随着视觉词汇的增加而减小。
 <p align=center><img src="https://github.com/Lily520/ImageClassify/raw/master/img/img4.png" width="80%" height="80%" alt = "图4" align=center/></p>
 <p align=center><img src="https://github.com/Lily520/ImageClassify/raw/master/img/img5.png" width="80%" height="80%" alt = "图5" align=center/></p>
+实验结果表明：基于BoF的图片分类算法大大的减少了分类算法的训练时间,尤其是提取的图片特征为SIFT特征时，基于BoF的图片分类算法的训练时间减少得特别明显。
+基于BoF的图片分类算法的准确率高于非BoF的分类算法的准确率。
